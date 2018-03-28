@@ -1,0 +1,91 @@
+html,body {
+ height:100%;
+ margin:0;
+ font-family:Arial,sans-serif;
+}
+.navigation {
+  float:right;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.navigation ul {
+  list-style-type: none;
+}
+.navigation li {
+  display: inline;
+  text-decoration: none;
+}
+.navigation a:link {
+  color: #000;
+  text-decoration: none;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+.navigation a:visited, a:active {
+  color: #000;
+  text-decoration: none;
+}
+.navigation a:hover {
+  text-decoration: underline;
+}
+.apps {
+  vertical-align: bottom;
+  width: 16px;
+  opacity: 0.7;
+}
+/* TODO: Image hover  */
+
+.button {
+  margin-top:-7px;
+  background: #4387fb;
+  border: 1px solid #4387fb;
+  border-radius: 2px;
+  font-weight: 700;
+  line-height:28px;
+  text-align: center;
+  margin-left:-35px;
+  width:70px;
+  color:#fff;
+}
+.sign-in a:link, a:hover, a:active, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.main {
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    position: absolute;
+}
+.google-search {
+  margin-top:20px;
+  width:550px;
+  height: 40px;
+  background: #fff;
+  border-radius: 0px;
+  border: 1px solid #eee;
+}
+.form input[type=text] {
+  padding-left: 10px;
+  font-size: 16px;
+}
+.form input:focus {
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.submit-button {
+  margin-top: 20px;
+  font-size: 13px;
+  width: 150px;
+  font-weight: 700;
+  height: 40px;
+  border: 0px;
+  padding: 10px;
+  margin: 30px 5px;
+}
+.submit-button:hover {
+  background: #eee;
+  border: 1px solid #bdbdbd;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
